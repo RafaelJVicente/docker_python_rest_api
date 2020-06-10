@@ -1,0 +1,21 @@
+image: rafaeljvicente/docker_python_rest_api:latest
+manifests:
+  - image: rafaeljvicente/docker_python_rest_api:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: rafaeljvicente/docker_python_rest_api:arm32v5
+    platform:
+      architecture: arm
+      os: linux
+      variant: v5
+  - image: rafaeljvicente/docker_python_rest_api:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
+  - image: rafaeljvicente/docker_python_rest_api:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8

@@ -130,3 +130,7 @@ dmypy.json
 
 # Pycharm
 .idea
+
+#Docker
+manifest-tool
+manifest-tool-*
