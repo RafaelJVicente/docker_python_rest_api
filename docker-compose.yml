@@ -4,7 +4,7 @@ services:
     container_name: stats-rest-app
     build:
       context: ./
-      dockerfile: amd64.dockerfile
+      dockerfile: Dockerfile
     ports:
       - "5000:5000"
 
